@@ -127,7 +127,7 @@ public class SynonymAnalyzer extends StopwordAnalyzerBase {
      */
     @AutoService(LuceneAnalyzerFactory.class)
     public static class AuthoritativeSynonymOnlyAnalyzerFactory implements LuceneAnalyzerFactory {
-        public static final String ANALYZER_FACTORY_NAME = "INDEX_ONLY_SYNONYM";
+        public static final String ANALYZER_FACTORY_NAME = "AUTHORITATIVE_SYNONYM_ONLY";
 
         @Nonnull
         @Override
